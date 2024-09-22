@@ -16,7 +16,7 @@ public class Account {
 
     void withdraw(int amt) {
         if (amount < amt) {
-            System.out.println("Not enough money in your account");
+            System.out.println("Insufficient balance");
         } else {
             amount = amount - amt;
             System.out.println(amt + " has been successfully withdrawn");
